@@ -1,0 +1,32 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "reset.css";
+
+//TopPage 
+body{
+  font-family: "ヒラギノ角ゴシック" ;
+}
+.header{
+  background-color:aquamarine;
+  height:50px;
+  li {
+    color:black;
+    list-style:none;
+    float:left;
+    padding:15px;
+  }  
+}
+.header-logo{
+  font-size:30px;
+  color:#ff5522;
+  float:left;
+  padding:10px;
+}
+.header-list{
+  float:right;
+}
+.main{
+  background-color: black;
+  height:1000px;
+}

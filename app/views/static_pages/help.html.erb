@@ -1,7 +1,8 @@
+<% provide(:title, "Help") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RubyApp1</title>
+    <title><%= yield(:title) %> | SubKan</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,7 +12,15 @@
   </head>
 
   <body>
-  test
-    <%= yield %>
+  <header>
+  <div class="header-logo">SubKan</div>
+  <div class="header-list">
+    <ul>
+      <li>Home</li>
+      <li>User</li>
+      <li>Login</li>
+    </ul>
+  </div>
+</header>
   </body>
 </html>
